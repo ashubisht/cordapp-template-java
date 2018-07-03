@@ -1,4 +1,4 @@
-package net.corda.examples.oracle.base.flow
+package com.template
 
 import co.paralleluniverse.fibers.Suspendable
 import net.corda.core.flows.FlowLogic

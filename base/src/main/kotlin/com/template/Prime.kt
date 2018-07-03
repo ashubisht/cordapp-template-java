@@ -1,4 +1,4 @@
-package net.corda.examples.oracle.base.contract
+package com.template
 
 import net.corda.core.contracts.*
 import net.corda.core.identity.AbstractParty

@@ -1,4 +1,4 @@
-package net.corda.examples.oracle.service.service
+package com.template
 
 import net.corda.core.contracts.Command
 import net.corda.core.crypto.TransactionSignature
@@ -6,7 +6,7 @@ import net.corda.core.node.ServiceHub
 import net.corda.core.node.services.CordaService
 import net.corda.core.serialization.SingletonSerializeAsToken
 import net.corda.core.transactions.FilteredTransaction
-import net.corda.examples.oracle.base.contract.PrimeContract
+import com.template.PrimeContract
 import java.math.BigInteger
 
 // We sub-class 'SingletonSerializeAsToken' to ensure that instances of this class are never serialised by Kryo.

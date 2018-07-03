@@ -1,4 +1,4 @@
-package net.corda.examples.oracle.service.flow
+package com.template
 
 import co.paralleluniverse.fibers.Suspendable
 import net.corda.core.flows.FlowException
@@ -7,8 +7,8 @@ import net.corda.core.flows.FlowSession
 import net.corda.core.flows.InitiatedBy
 import net.corda.core.utilities.ProgressTracker
 import net.corda.core.utilities.unwrap
-import net.corda.examples.oracle.base.flow.QueryPrime
-import net.corda.examples.oracle.service.service.Oracle
+import com.template.QueryPrime
+import com.template.Oracle
 
 // The oracle flow to handle prime-number queries.
 @InitiatedBy(QueryPrime::class)

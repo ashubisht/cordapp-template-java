@@ -1,4 +1,4 @@
-package net.corda.examples.oracle.service.flow
+package com.template
 
 import co.paralleluniverse.fibers.Suspendable
 import net.corda.core.flows.FlowException
@@ -8,8 +8,8 @@ import net.corda.core.flows.InitiatedBy
 import net.corda.core.transactions.FilteredTransaction
 import net.corda.core.utilities.ProgressTracker
 import net.corda.core.utilities.unwrap
-import net.corda.examples.oracle.base.flow.SignPrime
-import net.corda.examples.oracle.service.service.Oracle
+import com.template.SignPrime
+import com.template.Oracle
 
 // The oracle flow to sign prime-number transactions.
 @InitiatedBy(SignPrime::class)
